@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW Live - Online Education</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1e2a47;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 40px;
+            background-color: white;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .grid-container .card {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .grid-container .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .grid-container .card h3 {
+            color: #333;
+        }
+
+        .testimonials {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .testimonials .testimonial {
+            background-color: #e9f7ff;
+            padding: 20px;
+            width: 30%;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #1e2a47;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .counter {
+            font-size: 2em;
+            color: #2c86d3;
+        }
+
+        .exam-categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .exam-categories .category {
+            width: 20%;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .exam-categories .category h4 {
+            color: #333;
+        }
+
+        .locations {
+            background-color: #1e2a47;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .locations .city {
+            display: inline-block;
+            margin: 10px;
+            background-color: #3c4b70;
+            padding: 10px 15px;
+            border-radius: 25px;
+            font-size: 18px;
+        }
+
+        .cta-button {
+            display: block;
+            width: 250px;
+            margin: 0 auto;
+            background-color: #2c86d3;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .cta-button:hover {
+            background-color: #1e72c6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>PW Live - Transforming Education with Technology</h1>
+        <p>Interactive classes, 10 Million+ students, and 24/7 support</p>
+    </header>
+
+    <!-- Interactive Classes Section -->
+    <section>
+        <h2>Interactive Live Classes</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="image1.jpg" alt="Interactive Classes Image">
+                <h3>Live Classes with Experts</h3>
+                <p>Engage in live sessions with top educators, clear doubts, and learn effectively.</p>
+            </div>
+            <div class="card">
+                <img src="image2.jpg" alt="Tests and Sample Papers">
+                <h3>Tests & Sample Papers</h3>
+                <p>Prepare for exams with practice tests, sample papers, and notes available 24/7.</p>
+            </div>
+            <div class="card">
+                <img src="image3.jpg" alt="Doubt Solving Sessions">
+                <h3>24/7 Doubt Solving</h3>
+                <p>Get your doubts resolved anytime with expert guidance and personalized attention.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exam Categories Section -->
+    <section>
+        <h2>Explore Our Exam Categories</h2>
+        <div class="exam-categories">
+            <div class="category">
+                <h4>NEET</h4>
+                <p>Class 11, 12, Dropper</p>
+            </div>
+            <div class="category">
+                <h4>IIT JEE</h4>
+                <p>Class 11, 12, Dropper</p>
+            </div>
+            <div class="category">
+                <h4>School Preparation</h4>
+                <p>Class 6, 7, 8</p>
+            </div>
+            <div class="category">
+                <h4>Govt Job Exams</h4>
+                <p>SSC, Banking, Judiciary</p>
+            </div>
+            <div class="category">
+                <h4>Defence</h4>
+                <p>NDA, CDS, Agniveer</p>
+            </div>
+            <div class="category">
+                <h4>CA</h4>
+                <p>Foundation, Intermediate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section>
+        <h2>Our Impact</h2>
+        <div class="counter">10 Million+ Happy Students</div>
+        <div class="counter">500+ Mock Tests</div>
+        <div class="counter">1 Million+ Video Lectures</div>
+        <div class="counter">5 Million+ Practice Papers</div>
+    </section>
+
+    <!-- Offline Centers Section -->
+    <section class="locations">
+        <h2>Explore Tech-Enabled Offline Vidyapeeth Centres</h2>
+        <p>Find our centres in 105 cities</p>
+        <div class="city">Kota</div>
+        <div class="city">Patna</div>
+        <div class="city">Noida</div>
+        <div class="city">Jaipur</div>
+        <div class="city">Ahmedabad</div>
+        <div class="city">Kolkata</div>
+        <div class="city">New Delhi</div>
+        <div class="city">Bareilly</div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section>
+        <h2>What Our Students Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <h3>"Best platform for learning!"</h3>
+                <p>- Student A</p>
+            </div>
+            <div class="testimonial">
+                <h3>"The mock tests helped me a lot!"</h3>
+                <p>- Student B</p>
+            </div>
+            <div class="testimonial">
+                <h3>"Thanks to PW Live, I aced my exams!"</h3>
+                <p>- Student C</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section>
+        <h2>Join 15 Million+ Students Today!</h2>
+        <a href="#" class="cta-button">Get Started Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PW Live | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
