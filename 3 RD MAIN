@@ -43,17 +43,26 @@
             top: 0;
             z-index: 800;
         }
+        ul{
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          overflow:hidden;
+        }
+        li{
+          float:left;
+        }
 
-        nav a {
+        li a {
             color: white;
-            padding: 15px 25px;
+            padding: 10px 15px;
             text-decoration: none;
             font-size: 16px;
-            margin: 0 10px;
+            margin: 0 5px;
             border-radius: 5px;
         }
 
-        nav a:hover {
+        li a:hover {
             background-color: #1e72c6;
         }
 
@@ -184,10 +193,12 @@
 
     <!-- Navigation Bar -->
     <nav>
-        <a href="#all-courses">All Courses</a>
-        <a href="#pw-store">PW Store (Books)</a>
-        <a href="#login-register">Login/Register</a>
-        <a href="#contact">contact</a>
+       <ul id="navlist">
+       <li> <a href="#all-courses">All Courses</a></li>
+       <li> <a href="#pw-store">PW Store (Books)</a></li>
+        <li><a href="#login-register">Login/Register</a></li>
+        <li><a href="#contact">contact</a></li>
+        </ul>
     </nav>
 
     <!-- Interactive Classes Section -->
