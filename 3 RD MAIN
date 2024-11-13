@@ -41,7 +41,7 @@
             text-align: right;
             position: sticky;
             top: 0;
-            z-index: 1000;
+            z-index: 800;
         }
 
         nav a {
@@ -185,11 +185,9 @@
     <!-- Navigation Bar -->
     <nav>
         <a href="#all-courses">All Courses</a>
-        <a href="#vidyapeeth">Vidyapeeth</a>
-        <a href="#upskilling">Upskilling - Job Assistance</a>
         <a href="#pw-store">PW Store (Books)</a>
-        <a href="#real-test">REAL Test</a>
         <a href="#login-register">Login/Register</a>
+        <a href="#contact">contact</a>
     </nav>
 
     <!-- Interactive Classes Section -->
