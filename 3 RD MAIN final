@@ -196,7 +196,7 @@
     <nav>
        <ul id="navlist">
        <li> <a href="#all-courses">All Courses</a></li>
-       <li> <a href="#pw-store">PW Store (Books)</a></li>
+       <li> <a href="#EW-store">PW Store (Books)</a></li>
         <li><a href="#login-register">Login/Register</a></li>
         <li><a href="#contact">contact</a></li>
         </ul>
