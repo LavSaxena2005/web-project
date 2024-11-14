@@ -192,6 +192,7 @@
     </header>
 
     <!-- Navigation Bar -->
+<marquee>
     <nav>
        <ul id="navlist">
        <li> <a href="#all-courses">All Courses</a></li>
@@ -200,6 +201,7 @@
         <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
+</marquee>
 
     <!-- Interactive Classes Section -->
     <section id="all-courses">
